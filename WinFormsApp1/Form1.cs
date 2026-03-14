@@ -74,25 +74,27 @@ namespace WinFormsApp1
             {
                 double precision = double.Parse(textBox1.Text.Replace('.', ','));
                 double x = double.Parse(textBox2.Text.Replace('.', ','));
+                double absX = Math.Abs(x);
                 double sum = 0;
                 double term = 1;
-                double etalon = Math.Exp(-x);
                 int n = 1;
-                double temp = 0;
-                while (Math.Abs(term - temp) >= precision)
+
+                while (term >= precision)
                 {
                     sum += term;
-                    temp = term;
-                    term = (Math.Pow(-1, n) * Math.Pow(x, n)) / Factorial(n);
+                    term = term * absX / n;
                     n++;
                 }
-                label4.Text = "e^-x = " + etalon.ToString("F15") + "\n" +
-                      "Сумма ряда: " + sum.ToString("F15") + "\n" +
-                      "Количество членов ряда: " + n.ToString();
+                double finalResult = (x > 0) ? (1.0 / sum) : sum;
+
+                double etalon = Math.Exp(-x);
+                label4.Text = "e^-x = " + etalon.ToString("F8") + "\n" +
+                      "Сумма ряда: " + finalResult.ToString("F8") + "\n" +
+                      "Количество итераций: " + n.ToString();
             }
             catch (FormatException)
             {
-                MessageBox.Show("Пожалуйста, введите корректные числовые значения (используйте запятую).");
+                MessageBox.Show("Пожалуйста, введите корректные числовые значения.");
             }
         }
     }
