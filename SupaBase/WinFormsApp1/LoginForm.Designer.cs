@@ -79,6 +79,7 @@
             btnLogin.TabIndex = 4;
             btnLogin.Text = "Логин";
             btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
             // 
             // btnGoToRegister
             // 
@@ -88,6 +89,7 @@
             btnGoToRegister.TabIndex = 5;
             btnGoToRegister.Text = "Зарегистрироваться";
             btnGoToRegister.UseVisualStyleBackColor = true;
+            btnGoToRegister.Click += btnGoToRegister_Click;
             // 
             // label3
             // 
@@ -114,6 +116,7 @@
             Controls.Add(txtLogin);
             Name = "LoginForm";
             Text = "Form1";
+            Load += LoginForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

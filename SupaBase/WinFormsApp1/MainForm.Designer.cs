@@ -59,6 +59,7 @@
             Controls.Add(pictureBox1);
             Name = "MainForm";
             Text = "MainForm";
+            FormClosed += MainForm_FormClosed;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

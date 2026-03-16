@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             btnGoToLogin = new Button();
-            btnLogin = new Button();
+            btnRegister = new Button();
             label2 = new Label();
             label1 = new Label();
             txtRegPassword = new TextBox();
@@ -47,15 +47,17 @@
             btnGoToLogin.TabIndex = 12;
             btnGoToLogin.Text = "Войти";
             btnGoToLogin.UseVisualStyleBackColor = true;
+            btnGoToLogin.Click += btnGoToLogin_Click;
             // 
-            // btnLogin
+            // btnRegister
             // 
-            btnLogin.Location = new Point(323, 305);
-            btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(98, 23);
-            btnLogin.TabIndex = 11;
-            btnLogin.Text = "Регистрация";
-            btnLogin.UseVisualStyleBackColor = true;
+            btnRegister.Location = new Point(323, 305);
+            btnRegister.Name = "btnRegister";
+            btnRegister.Size = new Size(98, 23);
+            btnRegister.TabIndex = 11;
+            btnRegister.Text = "Регистрация";
+            btnRegister.UseVisualStyleBackColor = true;
+            btnRegister.Click += btnRegister_Click;
             // 
             // label2
             // 
@@ -107,6 +109,7 @@
             btnChooseAvatar.TabIndex = 14;
             btnChooseAvatar.Text = "Выбрать фото";
             btnChooseAvatar.UseVisualStyleBackColor = true;
+            btnChooseAvatar.Click += btnChooseAvatar_Click;
             // 
             // RegisterForm
             // 
@@ -116,7 +119,7 @@
             Controls.Add(btnChooseAvatar);
             Controls.Add(pbAvatar);
             Controls.Add(btnGoToLogin);
-            Controls.Add(btnLogin);
+            Controls.Add(btnRegister);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(txtRegPassword);
@@ -131,7 +134,7 @@
         #endregion
 
         private Button btnGoToLogin;
-        private Button btnLogin;
+        private Button btnRegister;
         private Label label2;
         private Label label1;
         private TextBox txtRegPassword;

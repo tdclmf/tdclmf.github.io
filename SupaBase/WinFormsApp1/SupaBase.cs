@@ -1,6 +1,8 @@
-﻿using System.Threading.Tasks;
+﻿using Supabase.Postgrest.Attributes;
+using Supabase.Postgrest.Models;
+using System.Threading.Tasks;
 
-namespace SupabaseWinForms
+namespace WinFormsApp1
 {
     public static class SupabaseManager
     {
@@ -18,5 +20,17 @@ namespace SupabaseWinForms
                 await Client.InitializeAsync();
             }
         }
+    }
+    [Table("users")]
+    public class NewUser : BaseModel
+    {
+        [Column("username")]
+        public string Username { get; set; }
+
+        [Column("password")]
+        public string Password { get; set; }
+
+        [Column("avatar_url")]
+        public string AvatarUrl { get; set; }
     }
 }
