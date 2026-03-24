@@ -38,6 +38,11 @@ namespace Task_3
             button2.Click += new EventHandler(btnSettings_Click);
         }
 
+        private void CenterBall()
+        {
+            x = (this.ClientSize.Width - d) / 2;
+            y = (this.ClientSize.Height - d) / 2;
+        }
 
         public int MySpeed
         {
@@ -137,7 +142,7 @@ namespace Task_3
                 button1.Text = "Старт";
                 MessageBox.Show("Достигнут максимальный размер фигуры. Работа завершена!", "Стоп");
                 d = 30; // Сброс размера для нового запуска
-                x = 10; y = 50;
+                CenterBall();
                 this.Invalidate();
             }
         }
@@ -167,6 +172,11 @@ namespace Task_3
             Form2 frmSettings = new Form2();
             frmSettings.Owner = this; 
             frmSettings.ShowDialog(); 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            CenterBall();
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
