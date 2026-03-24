@@ -14,3 +14,20 @@ C:\Users\leelu\OneDrive\Рабочий стол\praktika\Task 2\obj\Debug\net8.0
 C:\Users\leelu\OneDrive\Рабочий стол\praktika\Task 2\obj\Debug\net8.0-windows\Task 2.pdb
 C:\Users\leelu\OneDrive\Рабочий стол\praktika\Task 2\obj\Debug\net8.0-windows\Task 2.genruntimeconfig.cache
 C:\Users\leelu\OneDrive\Рабочий стол\praktika\Task 2\obj\Debug\net8.0-windows\ref\Task 2.dll
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\bin\Debug\net8.0-windows\Task 2.exe
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\bin\Debug\net8.0-windows\Task 2.deps.json
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\bin\Debug\net8.0-windows\Task 2.runtimeconfig.json
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\bin\Debug\net8.0-windows\Task 2.dll
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\bin\Debug\net8.0-windows\Task 2.pdb
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\obj\Debug\net8.0-windows\Task_2.Form1.resources
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\obj\Debug\net8.0-windows\Task 2.csproj.GenerateResource.cache
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\obj\Debug\net8.0-windows\Task 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\obj\Debug\net8.0-windows\Task 2.AssemblyInfoInputs.cache
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\obj\Debug\net8.0-windows\Task 2.AssemblyInfo.cs
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\obj\Debug\net8.0-windows\Task 2.csproj.CoreCompileInputs.cache
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\obj\Debug\net8.0-windows\Task 2.sourcelink.json
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\obj\Debug\net8.0-windows\Task 2.dll
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\obj\Debug\net8.0-windows\refint\Task 2.dll
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\obj\Debug\net8.0-windows\Task 2.pdb
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\obj\Debug\net8.0-windows\Task 2.genruntimeconfig.cache
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task 2\obj\Debug\net8.0-windows\ref\Task 2.dll

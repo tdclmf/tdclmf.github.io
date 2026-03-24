@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B32TlY+uit0=",
+  "dgSpecHash": "lFuxt/2wVHQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\praktika\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\tdclmf.github.io\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leelu\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\leelu\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\praktika\\TestProject1\\TestProject1.csproj": {}
+    "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\tdclmf.github.io\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\praktika\\Task 2\\Task 2.csproj": {
+    "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\tdclmf.github.io\\Task 2\\Task 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\praktika\\Task 2\\Task 2.csproj",
+        "projectUniqueName": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\tdclmf.github.io\\Task 2\\Task 2.csproj",
         "projectName": "Task 2",
-        "projectPath": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\praktika\\Task 2\\Task 2.csproj",
+        "projectPath": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\tdclmf.github.io\\Task 2\\Task 2.csproj",
         "packagesPath": "C:\\Users\\leelu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\praktika\\Task 2\\obj\\",
+        "outputPath": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\tdclmf.github.io\\Task 2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\praktika\\TestProject1\\TestProject1.csproj": {
+    "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\tdclmf.github.io\\TestProject1\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\praktika\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\tdclmf.github.io\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\praktika\\TestProject1\\TestProject1.csproj",
+        "projectPath": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\tdclmf.github.io\\TestProject1\\TestProject1.csproj",
         "packagesPath": "C:\\Users\\leelu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\praktika\\TestProject1\\obj\\",
+        "outputPath": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\tdclmf.github.io\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,8 +100,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\praktika\\Task 2\\Task 2.csproj": {
-                "projectPath": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\praktika\\Task 2\\Task 2.csproj"
+              "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\tdclmf.github.io\\Task 2\\Task 2.csproj": {
+                "projectPath": "C:\\Users\\leelu\\OneDrive\\Рабочий стол\\tdclmf.github.io\\Task 2\\Task 2.csproj"
               }
             }
           }
