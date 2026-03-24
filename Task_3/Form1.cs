@@ -33,9 +33,6 @@ namespace Task_3
             brush = new SolidBrush(colorForward);
             this.KeyDown += new KeyEventHandler(Form1_KeyDown);
             this.Paint += new PaintEventHandler(Form1_Paint);
-            timer1.Tick += new EventHandler(timer1_Tick);
-            button1.Click += new EventHandler(btnStartStop_Click);
-            button2.Click += new EventHandler(btnSettings_Click);
         }
 
         private void CenterBall()
