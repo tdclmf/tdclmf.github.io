@@ -14,96 +14,73 @@ namespace Task_4
 
         public Candidate(string name, int votes)
         {
-            this.Name = name;
-            this.Votes = votes;
+            Name = name;
+            Votes = votes;
         }
     }
 
-    // Класс для управления списком кандидатов (аналог ArrayBrower)
     public class Election
     {
-        private List<Candidate> candidates;
-        public string Question { get; set; } // Текст вопроса/название диаграммы
+        private List<Candidate> candidates = new List<Candidate>();
+        private string defaultTitle = "Результаты голосования";
 
-        public Election()
+        public void AddOrUpdate(string name, int votes)
         {
-            candidates = new List<Candidate>();
-            Question = "Результаты голосования";
-        }
-
-        public void Add(Candidate c)
-        {
-            candidates.Add(c);
-        }
-
-        public void Clear()
-        {
-            candidates.Clear();
+            var existing = candidates.Find(c => c.Name == name);
+            if (existing != null)
+                existing.Votes += votes;
+            else
+                candidates.Add(new Candidate(name, votes));
         }
 
         public List<Candidate> GetAll() => candidates;
 
-        // Сохранение в текстовый файл
         public void SaveToFile(string fileName)
         {
             using (StreamWriter sw = new StreamWriter(fileName))
             {
-                sw.WriteLine(Question);
+                sw.WriteLine(defaultTitle);
                 sw.WriteLine(candidates.Count);
                 foreach (var c in candidates)
-                {
                     sw.WriteLine($"{c.Name};{c.Votes}");
-                }
             }
         }
 
-        // Загрузка из текстового файла
         public void LoadFromFile(string fileName)
         {
             if (!File.Exists(fileName)) return;
-
             candidates.Clear();
             using (StreamReader sr = new StreamReader(fileName))
             {
-                Question = sr.ReadLine();
-                int count = int.Parse(sr.ReadLine());
-                for (int i = 0; i < count; i++)
+                sr.ReadLine();
+                if (int.TryParse(sr.ReadLine(), out int count))
                 {
-                    string[] line = sr.ReadLine().Split(';');
-                    candidates.Add(new Candidate(line[0], int.Parse(line[1])));
+                    for (int i = 0; i < count; i++)
+                    {
+                        string line = sr.ReadLine();
+                        if (string.IsNullOrEmpty(line)) continue;
+                        string[] parts = line.Split(';');
+                        candidates.Add(new Candidate(parts[0], int.Parse(parts[1])));
+                    }
                 }
             }
         }
 
-        // Отрисовка диаграммы
         public void DrawDiagram(Chart chart)
         {
             chart.Series.Clear();
             chart.Titles.Clear();
-
-            // Настройка внешнего вида (как в примере)
-            chart.BackColor = Color.Gray;
-            chart.BackSecondaryColor = Color.WhiteSmoke;
-            chart.BackGradientStyle = GradientStyle.DiagonalRight;
-            chart.ChartAreas[0].Area3DStyle.Enable3D = true;
-
-            chart.Titles.Add(Question);
-            chart.Titles[0].Font = new Font("Utopia", 16);
-
-            Series series = new Series("VotesSeries")
-            {
-                ChartType = SeriesChartType.Pie,
-                Label = "#PERCENT" // Показывать проценты на самой диаграмме
-            };
+            chart.Titles.Add("Доля голосов за кандидатов");
+            chart.Titles[0].Font = new Font("Arial", 16, FontStyle.Bold);
+            Series series = new Series("VotesSeries");
+            series.ChartType = SeriesChartType.Pie;
             chart.Series.Add(series);
-
             foreach (var c in candidates)
             {
-                series.Points.AddXY(c.Name, c.Votes);
+                int i = series.Points.AddXY(c.Name, c.Votes);
+                series.Points[i].LegendText = c.Name;
+                series.Points[i].Label = "#PERCENT"; 
             }
-
-            // Легенда для имен
-            chart.Series["VotesSeries"].LegendText = "#VALX";
         }
     }
 }

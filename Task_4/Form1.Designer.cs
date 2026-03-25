@@ -72,6 +72,7 @@
             button1.TabIndex = 3;
             button1.Text = "Проголосовать";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // tabControl1
             // 
@@ -83,6 +84,7 @@
             tabControl1.SelectedIndex = 0;
             tabControl1.Size = new Size(806, 445);
             tabControl1.TabIndex = 4;
+            tabControl1.SelectedIndexChanged += tabControl1_SelectedIndexChanged;
             // 
             // tabPage1
             // 
@@ -118,6 +120,7 @@
             button3.TabIndex = 2;
             button3.Text = "Загрузить из файла";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -127,6 +130,7 @@
             button2.TabIndex = 1;
             button2.Text = "Сохранить в файл";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // dataGridView1
             // 
