@@ -28,9 +28,15 @@ namespace Task_4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            election.AddOrUpdate(comboBox1.Text, 1);
-            UpdateTable();
-            MessageBox.Show("Данные учтены");
+            if (comboBox1.Text != "") {
+                election.AddOrUpdate(comboBox1.Text, 1);
+                UpdateTable();
+                MessageBox.Show("Данные учтены");
+            }
+            else
+            {
+                MessageBox.Show("Ошибка! Введите кандидата!");
+            }
         }
 
         private void UpdateTable()
