@@ -4,3 +4,9 @@ C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\ClassLibrary1\o
 C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
 C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.AssemblyReference.cache
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

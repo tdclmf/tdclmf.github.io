@@ -12,3 +12,17 @@ C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task_5\obj\Debu
 C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task_5\bin\Debug\ClassLibrary1.dll
 C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task_5\bin\Debug\ClassLibrary1.pdb
 C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task_5\obj\Debug\Task_5.csproj.Up2Date
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\bin\Debug\Task_5.exe.config
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\bin\Debug\Task_5.exe
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\bin\Debug\Task_5.pdb
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\bin\Debug\ClassLibrary1.dll
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\bin\Debug\ClassLibrary1.pdb
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\obj\Debug\Task_5.csproj.AssemblyReference.cache
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\obj\Debug\Task_5.exe.config
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\obj\Debug\Task_5.Form1.resources
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\obj\Debug\Task_5.Properties.Resources.resources
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\obj\Debug\Task_5.csproj.GenerateResource.cache
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\obj\Debug\Task_5.csproj.CoreCompileInputs.cache
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\obj\Debug\Task_5.csproj.Up2Date
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\obj\Debug\Task_5.exe
+C:\Users\232909071094-7\Desktop\tdclmf.github.io\Task_5\obj\Debug\Task_5.pdb

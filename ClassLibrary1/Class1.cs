@@ -22,12 +22,23 @@ namespace ClassLibrary1
             count = words.Count;
         }
 
-        public void AddWord(string word)
+        public bool AddWord(string word)
         {
-            if (!words.Any(w => w.Equals(word, StringComparison.OrdinalIgnoreCase)))
+            string cleanWord = word.Trim();
+            if (string.IsNullOrEmpty(cleanWord)) return false;
+            if (cleanWord.Contains(" ")) return false;
+            foreach (char c in cleanWord)
             {
-                words.Add(word);
+                if (!char.IsLetter(c) && c != '-') return false;
             }
+            if (words.Any(w => w.Equals(cleanWord, StringComparison.OrdinalIgnoreCase)))
+            {
+                return false;
+            }
+
+            words.Add(cleanWord);
+            count = words.Count;
+            return true;
         }
 
         private int GetLevenshteinDistance(string s, string t)

@@ -23,21 +23,40 @@ namespace Task_5
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string defaultPath = "dictionary.txt";
+            string defaultPath = "";
             if (File.Exists(defaultPath))
             {
                 mySlovar = new Slovar(defaultPath);
                 RefreshListBox1();
+                button1.Enabled = true;
+                button2.Enabled = true;
+                button3.Enabled = true;
+                button4.Enabled = true;
+                button5.Enabled = true;
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(textBox1.Text))
+            string input = textBox1.Text;
+            bool success = mySlovar.AddWord(input);
+
+            if (success)
             {
-                mySlovar.AddWord(textBox1.Text.Trim());
                 RefreshListBox1();
                 textBox1.Clear();
+            }
+            else
+            {
+                MessageBox.Show(
+                    "Не удалось добавить слово. Убедитесь, что:\n" +
+                    "1. Это действительно ОДНО слово (без пробелов).\n" +
+                    "2. Оно состоит только из букв.\n" +
+                    "3. Такого слова еще нет в словаре.",
+                    "Ошибка ввода",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
             }
         }
 
@@ -152,6 +171,11 @@ namespace Task_5
                 {
                     mySlovar = new Slovar(ofd.FileName);
                     RefreshListBox1();
+                    button1.Enabled = true;
+                    button2.Enabled = true;
+                    button3.Enabled = true;
+                    button4.Enabled = true;
+                    button5.Enabled = true;
                 }
                 catch (Exception ex)
                 {
