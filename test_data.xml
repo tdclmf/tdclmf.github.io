@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EngTest>
+  <!-- ТЕМА 1: ГРАММАТИКА (Анаграммы) -->
+  <Topic name="Грамматика">
+    <Level id="1" minScoreToUnlock="0">
+      <Question type="Anagram" text="P-P-L-A-E" score="10">
+        <Answer right="yes">APPLE</Answer>
+      </Question>
+      <Question type="Anagram" text="O-H-U-S-E" score="10">
+        <Answer right="yes">HOUSE</Answer>
+      </Question>
+      <Question type="Anagram" text="O-B-O-K" score="10">
+        <Answer right="yes">BOOK</Answer>
+      </Question>
+      <Question type="Anagram" text="T-A-C" score="10">
+        <Answer right="yes">CAT</Answer>
+      </Question>
+      <Question type="Anagram" text="D-O-G" score="10">
+        <Answer right="yes">DOG</Answer>
+      </Question>
+      <Question type="Anagram" text="F-I-S-H" score="10">
+        <Answer right="yes">FISH</Answer>
+      </Question>
+      <Question type="Anagram" text="B-I-R-D" score="10">
+        <Answer right="yes">BIRD</Answer>
+      </Question>
+      <Question type="Anagram" text="T-R-E-E" score="10">
+        <Answer right="yes">TREE</Answer>
+      </Question>
+      <Question type="Anagram" text="S-U-N" score="10">
+        <Answer right="yes">SUN</Answer>
+      </Question>
+      <Question type="Anagram" text="M-O-O-N" score="10">
+        <Answer right="yes">MOON</Answer>
+      </Question>
+    </Level>
+    
+    <Level id="2" minScoreToUnlock="80">
+      <Question type="Anagram" text="F-R-I-E-N-D" score="10">
+        <Answer right="yes">FRIEND</Answer>
+      </Question>
+      <Question type="Anagram" text="S-C-H-O-O-L" score="10">
+        <Answer right="yes">SCHOOL</Answer>
+      </Question>
+      <Question type="Anagram" text="F-L-O-W-E-R" score="10">
+        <Answer right="yes">FLOWER</Answer>
+      </Question>
+      <Question type="Anagram" text="G-A-R-D-E-N" score="10">
+        <Answer right="yes">GARDEN</Answer>
+      </Question>
+      <Question type="Anagram" text="W-I-N-D-O-W" score="10">
+        <Answer right="yes">WINDOW</Answer>
+      </Question>
+      <Question type="Anagram" text="P-E-N-C-I-L" score="10">
+        <Answer right="yes">PENCIL</Answer>
+      </Question>
+      <Question type="Anagram" text="C-H-A-I-R" score="10">
+        <Answer right="yes">CHAIR</Answer>
+      </Question>
+      <Question type="Anagram" text="T-A-B-L-E" score="10">
+        <Answer right="yes">TABLE</Answer>
+      </Question>
+      <Question type="Anagram" text="W-A-T-E-R" score="10">
+        <Answer right="yes">WATER</Answer>
+      </Question>
+      <Question type="Anagram" text="M-O-T-H-E-R" score="10">
+        <Answer right="yes">MOTHER</Answer>
+      </Question>
+    </Level>
+
+    <Level id="3" minScoreToUnlock="80">
+      <Question type="Anagram" text="B-E-A-U-T-I-F-U-L" score="10">
+        <Answer right="yes">BEAUTIFUL</Answer>
+      </Question>
+      <Question type="Anagram" text="K-N-O-W-L-E-D-G-E" score="10">
+        <Answer right="yes">KNOWLEDGE</Answer>
+      </Question>
+      <Question type="Anagram" text="L-A-N-G-U-A-G-E" score="10">
+        <Answer right="yes">LANGUAGE</Answer>
+      </Question>
+      <Question type="Anagram" text="Q-U-E-S-T-I-O-N" score="10">
+        <Answer right="yes">QUESTION</Answer>
+      </Question>
+      <Question type="Anagram" text="M-O-U-N-T-A-I-N" score="10">
+        <Answer right="yes">MOUNTAIN</Answer>
+      </Question>
+      <Question type="Anagram" text="D-I-F-F-I-C-U-L-T" score="10">
+        <Answer right="yes">DIFFICULT</Answer>
+      </Question>
+      <Question type="Anagram" text="C-O-M-P-U-T-E-R" score="10">
+        <Answer right="yes">COMPUTER</Answer>
+      </Question>
+      <Question type="Anagram" text="E-L-E-P-H-A-N-T" score="10">
+        <Answer right="yes">ELEPHANT</Answer>
+      </Question>
+      <Question type="Anagram" text="H-O-L-I-D-A-Y" score="10">
+        <Answer right="yes">HOLIDAY</Answer>
+      </Question>
+      <Question type="Anagram" text="E-X-E-R-C-I-S-E" score="10">
+        <Answer right="yes">EXERCISE</Answer>
+      </Question>
+    </Level>
+  </Topic>
+
+  <!-- ТЕМА 2: ПЕРЕВОД (Выбор варианта/Карточки) -->
+  <Topic name="Перевод">
+    <Level id="1" minScoreToUnlock="0">
+      <Question type="Choice" text="Книга" src="book.jpg" score="10">
+        <Answer right="yes">Book</Answer>
+        <Answer right="no">Pen</Answer>
+        <Answer right="no">Bag</Answer>
+      </Question>
+      <Question type="Choice" text="Яблоко" src="apple.jpg" score="10">
+        <Answer right="yes">Apple</Answer>
+        <Answer right="no">Orange</Answer>
+        <Answer right="no">Banana</Answer>
+      </Question>
+      <Question type="Choice" text="Собака" src="dog.jpg" score="10">
+        <Answer right="yes">Dog</Answer>
+        <Answer right="no">Cat</Answer>
+        <Answer right="no">Fox</Answer>
+      </Question>
+      <Question type="Choice" text="Машина" src="car.jpg" score="10">
+        <Answer right="yes">Car</Answer>
+        <Answer right="no">Bus</Answer>
+        <Answer right="no">Bike</Answer>
+      </Question>
+      <Question type="Choice" text="Молоко" src="milk.jpg" score="10">
+        <Answer right="yes">Milk</Answer>
+        <Answer right="no">Water</Answer>
+        <Answer right="no">Juice</Answer>
+      </Question>
+      <Question type="Choice" text="Хлеб" src="bread.jpg" score="10">
+        <Answer right="yes">Bread</Answer>
+        <Answer right="no">Cheese</Answer>
+        <Answer right="no">Meat</Answer>
+      </Question>
+      <Question type="Choice" text="Друг" src="friend.jpg" score="10">
+        <Answer right="yes">Friend</Answer>
+        <Answer right="no">Teacher</Answer>
+        <Answer right="no">Student</Answer>
+      </Question>
+      <Question type="Choice" text="Город" src="city.jpg" score="10">
+        <Answer right="yes">City</Answer>
+        <Answer right="no">Town</Answer>
+        <Answer right="no">Village</Answer>
+      </Question>
+      <Question type="Choice" text="День" src="day.jpg" score="10">
+        <Answer right="yes">Day</Answer>
+        <Answer right="no">Night</Answer>
+        <Answer right="no">Evening</Answer>
+      </Question>
+      <Question type="Choice" text="Семья" src="family.jpg" score="10">
+        <Answer right="yes">Family</Answer>
+        <Answer right="no">People</Answer>
+        <Answer right="no">House</Answer>
+      </Question>
+    </Level>
+    <!-- Уровни 2 и 3 для темы "Перевод" заполняются аналогично -->
+  </Topic>
+
+  <!-- ТЕМА 3: ПРОПУЩЕННОЕ СЛОВО (Вставить в предложение) -->
+  <Topic name="Пропущенное слово">
+    <Level id="1" minScoreToUnlock="0">
+      <Question type="FillIn" text="I ___ a student." score="10">
+        <Answer right="yes">am</Answer>
+        <Answer right="no">is</Answer>
+        <Answer right="no">are</Answer>
+      </Question>
+      <Question type="FillIn" text="She ___ a doctor." score="10">
+        <Answer right="yes">is</Answer>
+        <Answer right="no">am</Answer>
+        <Answer right="no">are</Answer>
+      </Question>
+      <Question type="FillIn" text="They ___ playing football." score="10">
+        <Answer right="yes">are</Answer>
+        <Answer right="no">is</Answer>
+        <Answer right="no">am</Answer>
+      </Question>
+      <Question type="FillIn" text="He ___ a red car." score="10">
+        <Answer right="yes">has</Answer>
+        <Answer right="no">have</Answer>
+      </Question>
+      <Question type="FillIn" text="I ___ English every day." score="10">
+        <Answer right="yes">speak</Answer>
+        <Answer right="no">speaks</Answer>
+      </Question>
+      <Question type="FillIn" text="The sun ___ in the east." score="10">
+        <Answer right="yes">rises</Answer>
+        <Answer right="no">rise</Answer>
+      </Question>
+      <Question type="FillIn" text="Do you ___ coffee?" score="10">
+        <Answer right="yes">like</Answer>
+        <Answer right="no">likes</Answer>
+      </Question>
+      <Question type="FillIn" text="It ___ raining now." score="10">
+        <Answer right="yes">is</Answer>
+        <Answer right="no">are</Answer>
+      </Question>
+      <Question type="FillIn" text="Where ___ you live?" score="10">
+        <Answer right="yes">do</Answer>
+        <Answer right="no">does</Answer>
+      </Question>
+      <Question type="FillIn" text="We ___ to school by bus." score="10">
+        <Answer right="yes">go</Answer>
+        <Answer right="no">goes</Answer>
+      </Question>
+    </Level>
+  </Topic>
+</EngTest>

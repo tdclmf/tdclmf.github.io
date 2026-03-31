@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XmlReader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83e0869fab678e634a422c57c7ae88f9e455a0f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("XmlReader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XmlReader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

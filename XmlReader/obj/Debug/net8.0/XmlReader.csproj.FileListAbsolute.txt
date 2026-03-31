@@ -1,0 +1,12 @@
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\XmlReader\bin\Debug\net8.0\XmlReader.deps.json
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\XmlReader\bin\Debug\net8.0\XmlReader.dll
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\XmlReader\bin\Debug\net8.0\XmlReader.pdb
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\XmlReader\obj\Debug\net8.0\XmlReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\XmlReader\obj\Debug\net8.0\XmlReader.AssemblyInfoInputs.cache
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\XmlReader\obj\Debug\net8.0\XmlReader.AssemblyInfo.cs
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\XmlReader\obj\Debug\net8.0\XmlReader.csproj.CoreCompileInputs.cache
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\XmlReader\obj\Debug\net8.0\XmlReader.sourcelink.json
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\XmlReader\obj\Debug\net8.0\XmlReader.dll
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\XmlReader\obj\Debug\net8.0\refint\XmlReader.dll
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\XmlReader\obj\Debug\net8.0\XmlReader.pdb
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\XmlReader\obj\Debug\net8.0\ref\XmlReader.dll

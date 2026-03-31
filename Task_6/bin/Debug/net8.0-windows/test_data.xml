@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EngTest>
+  <Topic name="Грамматика">
+    <Level id="1" minScoreToUnlock="0" />
+    <Level id="2" minScoreToUnlock="80" />
+    <Level id="3" minScoreToUnlock="80" />
+  </Topic>
+</EngTest>
