@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EngTest>
+  <!-- ТЕМА 1: ГРАММАТИКА (Анаграммы) -->
+  <Topic name="Грамматика">
+    <Level id="1">
+      <Question type="Anagram" text="P-P-L-A-E" score="20">
+        <Answer right="yes">APPLE</Answer>
+      </Question>
+      <Question type="Anagram" text="O-H-U-S-E" score="20">
+        <Answer right="yes">HOUSE</Answer>
+      </Question>
+      <Question type="Anagram" text="O-B-O-K" score="20">
+        <Answer right="yes">BOOK</Answer>
+      </Question>
+      <Question type="Anagram" text="T-A-C" score="20">
+        <Answer right="yes">CAT</Answer>
+      </Question>
+      <Question type="Anagram" text="D-O-G" score="10">
+        <Answer right="yes">DOG</Answer>
+      </Question>
+    </Level>
+    <Level id="2">
+      <Question type="Anagram" text="S-C-H-O-O-L" score="20">
+        <Answer right="yes">SCHOOL</Answer>
+      </Question>
+    </Level>
+  </Topic>
+  <!-- ТЕМА 2: ПЕРЕВОД (С картинками) -->
+  <Topic name="Перевод">
+    <Level id="1">
+      <Question type="Choice" text="Что изображено на картинке?" src="apple.jpg" score="20">
+        <Answer right="yes">Apple</Answer>
+        <Answer right="no">Orange</Answer>
+        <Answer right="no">Pear</Answer>
+      </Question>
+      <Question type="Choice" text="Выберите правильный перевод: КНИГА" src="book.jpg" score="20">
+        <Answer right="yes">Book</Answer>
+        <Answer right="no">Box</Answer>
+        <Answer right="no">Pen</Answer>
+      </Question>
+      <Question type="Choice" text="Кто это?" src="cat.jpg" score="20">
+        <Answer right="yes">Cat</Answer>
+        <Answer right="no">Dog</Answer>
+        <Answer right="no">Fox</Answer>
+      </Question>
+      <Question type="Choice" text="Как переводится: ДОМ?" src="house.jpg" score="20">
+        <Answer right="yes">House</Answer>
+        <Answer right="no">Horse</Answer>
+        <Answer right="no">Mouse</Answer>
+      </Question>
+      <Question type="Choice" text="Найдите слово: СОБАКА" src="dog.jpg" score="20">
+        <Answer right="yes">Dog</Answer>
+        <Answer right="no">Duck</Answer>
+        <Answer right="no">Dad</Answer>
+      </Question>
+    </Level>
+  </Topic>
+  <!-- ТЕМА 3: ПРЕДЛОЖЕНИЯ (Вставить слово) -->
+  <Topic name="Предложения">
+    <Level id="1">
+      <Question type="FillIn" text="I ___ a student." score="20">
+        <Answer right="yes">am</Answer>
+        <Answer right="no">is</Answer>
+        <Answer right="no">are</Answer>
+      </Question>
+      <Question type="FillIn" text="She ___ a red dress." score="20">
+        <Answer right="yes">has</Answer>
+        <Answer right="no">have</Answer>
+      </Question>
+      <Question type="FillIn" text="They ___ football every day." score="20">
+        <Answer right="yes">play</Answer>
+        <Answer right="no">plays</Answer>
+      </Question>
+      <Question type="FillIn" text="He ___ to school by bus." score="20">
+        <Answer right="yes">goes</Answer>
+        <Answer right="no">go</Answer>
+      </Question>
+      <Question type="FillIn" text="London ___ the capital of Great Britain." score="20">
+        <Answer right="yes">is</Answer>
+        <Answer right="no">are</Answer>
+        <Answer right="no">am</Answer>
+      </Question>
+    </Level>
+  </Topic>
+</EngTest>

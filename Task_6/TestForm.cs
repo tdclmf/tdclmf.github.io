@@ -38,12 +38,22 @@ namespace Task_6
             label1.Text = $"Вопрос {_currentIdx + 1}: {q.Text}";
             panel1.Controls.Clear();
 
-            if (!string.IsNullOrEmpty(q.ImagePath) && System.IO.File.Exists(q.ImagePath))
-                pictureBox1.Image = Image.FromFile(q.ImagePath);
+            if (!string.IsNullOrEmpty(q.ImagePath))
+            {
+                string fullPath = Path.Combine(GameState.CurrentFolder, q.ImagePath);
+                if (File.Exists(fullPath))
+                {
+                    pictureBox1.Image = Image.FromFile(fullPath);
+                }
+                else
+                {
+                    pictureBox1.Image = null;
+                }
+            }
             else
+            {
                 pictureBox1.Image = null;
-
-            // Логика для разных типов заданий
+            }
             if (q.Type == QuestionType.Anagram)
             {
                 TextBox txt = new TextBox { Width = 200, Location = new Point(10, 10) };
@@ -52,7 +62,7 @@ namespace Task_6
                 panel1.Controls.Add(txt);
                 panel1.Controls.Add(btn);
             }
-            else // Choice или FillIn
+            else
             {
                 int y = 10;
                 foreach (var ans in q.Answers)

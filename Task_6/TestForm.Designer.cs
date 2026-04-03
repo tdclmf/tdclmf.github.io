@@ -40,20 +40,21 @@
             // labelTimer
             // 
             labelTimer.AutoSize = true;
-            labelTimer.Location = new Point(750, 9);
+            labelTimer.Location = new Point(12, 9);
             labelTimer.Name = "labelTimer";
             labelTimer.Size = new Size(0, 15);
             labelTimer.TabIndex = 0;
             // 
             // label1
             // 
-            label1.AutoSize = true;
+            label1.Dock = DockStyle.Top;
             label1.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label1.Location = new Point(299, 28);
+            label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(178, 30);
+            label1.Size = new Size(800, 30);
             label1.TabIndex = 1;
             label1.Text = "ТЕКСТ ВОПРОСА";
+            label1.TextAlign = ContentAlignment.TopCenter;
             // 
             // pictureBox1
             // 

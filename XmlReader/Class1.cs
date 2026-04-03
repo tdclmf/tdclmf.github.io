@@ -22,18 +22,13 @@ namespace Task_6
 
     public class XmlService
     {
-        private readonly string _filePath;
+        public string FolderPath { get; private set; }
+        private string XmlPath;
 
-        public XmlService(string fileName = "test_data.xml")
+        public XmlService()
         {
-            // Путь к файлу в папке с программой
-            _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileName);
-
-            // Если файла нет, создадим пустую структуру (для начальной работы)
-            if (!File.Exists(_filePath))
-            {
-                CreateEmptyXml();
-            }
+            string[] files = Directory.GetFiles(GameState.CurrentFolder, "*.xml");
+            if (files.Length > 0) XmlPath = files[0];
         }
 
         /// <summary>
@@ -44,7 +39,7 @@ namespace Task_6
         /// <param name="count">Сколько случайных вопросов выбрать (по заданию 5 из 10)</param>
         public List<Question> GetQuestions(string topicName, int levelId, int count = 5)
         {
-            XDocument doc = XDocument.Load(_filePath);
+            XDocument doc = XDocument.Load(XmlPath);
 
             var questions = doc.Descendants("Topic")
                 .Where(t => t.Attribute("name")?.Value == topicName)
@@ -71,7 +66,7 @@ namespace Task_6
         /// </summary>
         public void AddQuestion(string topicName, int levelId, Question q)
         {
-            XDocument doc = XDocument.Load(_filePath);
+            XDocument doc = XDocument.Load(XmlPath);
 
             // Ищем нужный узел уровня в нужной теме
             var levelNode = doc.Descendants("Topic")
@@ -97,7 +92,7 @@ namespace Task_6
             }
 
             levelNode.Add(newQuestion);
-            doc.Save(_filePath);
+            doc.Save(XmlPath);
         }
 
         /// <summary>
@@ -105,10 +100,9 @@ namespace Task_6
         /// </summary>
         public List<string> GetTopics()
         {
-            XDocument doc = XDocument.Load(_filePath);
-            return doc.Descendants("Topic")
-                      .Select(t => t.Attribute("name").Value)
-                      .ToList();
+            if (string.IsNullOrEmpty(XmlPath)) return new List<string>();
+            XDocument doc = XDocument.Load(XmlPath);
+            return doc.Descendants("Topic").Select(t => t.Attribute("name").Value).ToList();
         }
 
         private void CreateEmptyXml()
@@ -122,12 +116,13 @@ namespace Task_6
                     )
                 )
             );
-            doc.Save(_filePath);
+            doc.Save(XmlPath);
         }
     }
     public static class GameState
     {
         public static Dictionary<string, int> Scores = new Dictionary<string, int>();
+        public static string CurrentFolder = "";
 
         public static bool IsLevelAvailable(string topic, int level)
         {

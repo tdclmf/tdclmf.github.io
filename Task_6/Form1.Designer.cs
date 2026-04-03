@@ -34,6 +34,7 @@
             comboBox1 = new ComboBox();
             label1 = new Label();
             label2 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // btnLevel1
@@ -74,6 +75,7 @@
             // 
             // comboBox1
             // 
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox1.Font = new Font("Segoe UI", 12F);
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(315, 138);
@@ -103,11 +105,22 @@
             label2.Text = "Нужно сначала набрать 80 баллов!";
             label2.Visible = false;
             // 
+            // button1
+            // 
+            button1.Location = new Point(737, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 28);
+            button1.TabIndex = 7;
+            button1.Text = "admin";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(824, 459);
+            Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(comboBox1);
@@ -116,7 +129,7 @@
             Controls.Add(btnLevel1);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
+            Shown += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -129,5 +142,6 @@
         private ComboBox comboBox1;
         private Label label1;
         private Label label2;
+        private Button button1;
     }
 }
