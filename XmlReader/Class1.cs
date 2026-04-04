@@ -104,20 +104,6 @@ namespace Task_6
             XDocument doc = XDocument.Load(XmlPath);
             return doc.Descendants("Topic").Select(t => t.Attribute("name").Value).ToList();
         }
-
-        private void CreateEmptyXml()
-        {
-            XDocument doc = new XDocument(
-                new XElement("EngTest",
-                    new XElement("Topic", new XAttribute("name", "Грамматика"),
-                        new XElement("Level", new XAttribute("id", "1"), new XAttribute("minScoreToUnlock", "0")),
-                        new XElement("Level", new XAttribute("id", "2"), new XAttribute("minScoreToUnlock", "80")),
-                        new XElement("Level", new XAttribute("id", "3"), new XAttribute("minScoreToUnlock", "80"))
-                    )
-                )
-            );
-            doc.Save(XmlPath);
-        }
     }
     public static class GameState
     {
