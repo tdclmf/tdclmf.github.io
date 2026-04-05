@@ -35,7 +35,7 @@ namespace Task_7
         }
         private void CreateColorPalette()
         {
-            // Список цветов как на скрине (можно добавить свои)
+            // Список цветов (можно добавить свои)
             Color[] colors = {
             Color.Black, Color.Gray, Color.DarkRed, Color.Red, Color.Orange, Color.Yellow, Color.Green, Color.Blue, Color.Purple, Color.White,
             Color.LightGray, Color.Brown, Color.Pink, Color.Gold, Color.LightYellow, Color.LightGreen, Color.LightBlue, Color.Violet
@@ -87,8 +87,8 @@ namespace Task_7
         {
             Graphics g = e.Graphics;
 
-            // Рисуем сетку
-            using (Pen gridPen = new Pen(Color.FromArgb(240, 240, 240))) // Очень светлый серый
+            // Сетка
+            using (Pen gridPen = new Pen(Color.FromArgb(240, 240, 240)))
             {
                 for (int i = 0; i < this.Width; i += 20)
                     g.DrawLine(gridPen, i, 0, i, this.Height);

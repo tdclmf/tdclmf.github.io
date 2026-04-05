@@ -8,3 +8,4 @@ C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task_8\obj\Debu
 C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task_8\obj\Debug\Task_8.csproj.CoreCompileInputs.cache
 C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task_8\obj\Debug\Task_8.exe
 C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task_8\obj\Debug\Task_8.pdb
+C:\Users\leelu\OneDrive\Рабочий стол\tdclmf.github.io\Task_8\obj\Debug\Task_8.exe.config

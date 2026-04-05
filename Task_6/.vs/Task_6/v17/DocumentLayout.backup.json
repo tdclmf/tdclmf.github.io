@@ -3,6 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|c:\\users\\leelu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\task_6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\testform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|solutionrelative:testform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9120DBD6-96ED-CFBB-C653-1B818DFC65AC}|..\\XmlReader\\XmlReader.csproj|c:\\users\\leelu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\xmlreader\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|c:\\users\\leelu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\task_6\\testform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|solutionrelative:testform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|c:\\users\\leelu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\task_6\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|solutionrelative:adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,23 +26,8 @@
       "RelativeMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|solutionrelative:adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|c:\\users\\leelu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\task_6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\testform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|solutionrelative:testform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|c:\\users\\leelu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\task_6\\testform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|solutionrelative:testform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9120DBD6-96ED-CFBB-C653-1B818DFC65AC}|..\\XmlReader\\XmlReader.csproj|c:\\users\\leelu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\xmlreader\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66DEB308-E696-4AEC-A1B1-B08734ECFF6B}|Task_6.csproj|c:\\users\\leelu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\task_6\\task_6.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -45,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -61,38 +61,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AdminForm.cs",
               "DocumentMoniker": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\AdminForm.cs",
               "RelativeDocumentMoniker": "AdminForm.cs",
               "ToolTip": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\AdminForm.cs",
               "RelativeToolTip": "AdminForm.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAuwJcAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAwIQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-02T23:27:08.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AdminForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\AdminForm.cs",
               "RelativeDocumentMoniker": "AdminForm.cs",
               "ToolTip": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\AdminForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "AdminForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T23:14:25.117Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2026-04-02T23:14:25.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "TestForm.cs",
               "DocumentMoniker": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\TestForm.cs",
               "RelativeDocumentMoniker": "TestForm.cs",
               "ToolTip": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\TestForm.cs",
               "RelativeToolTip": "TestForm.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T11:02:16.126Z",
               "EditorCaption": ""
@@ -107,25 +106,24 @@
               "RelativeToolTip": "Task_6.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-31T10:57:00.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T10:57:00.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\XmlReader\\Class1.cs",
               "RelativeDocumentMoniker": "..\\XmlReader\\Class1.cs",
               "ToolTip": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\XmlReader\\Class1.cs",
               "RelativeToolTip": "..\\XmlReader\\Class1.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAwwIUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAADwv2kAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T10:55:33.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "TestForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\TestForm.cs",
               "RelativeDocumentMoniker": "TestForm.cs",
@@ -137,28 +135,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAQwDUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T10:54:39.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\leelu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tdclmf.github.io\\Task_6\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T10:44:32.451Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2026-03-31T10:44:32.451Z"
             }
           ]
         }

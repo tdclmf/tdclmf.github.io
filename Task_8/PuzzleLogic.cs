@@ -58,7 +58,6 @@ namespace Task_8
             }
         }
 
-        // Ход фишкой
         public bool Move(int r, int c)
         {
             // Проверяем, что ячейка (r, c) находится рядом с пустой (разница координат = 1)
@@ -76,7 +75,6 @@ namespace Task_8
             return false;
         }
 
-        // Проверка победы
         public bool CheckWin()
         {
             int counter = 1;
@@ -93,5 +91,12 @@ namespace Task_8
             }
             return true;
         }
+    }
+    [Serializable]
+    public class GameRecord
+    {
+        public string PlayerName { get; set; }
+        public int TimeSpent { get; set; } // Потраченное время в секундах
+        public DateTime Date { get; set; }
     }
 }

@@ -42,6 +42,9 @@
             this.lblPlayer = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
             this.btnStart = new System.Windows.Forms.Button();
+            this.легкий10МинутToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.среднийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.трудноToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGame)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -84,18 +87,21 @@
             this.авторизацияToolStripMenuItem.Name = "авторизацияToolStripMenuItem";
             this.авторизацияToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.авторизацияToolStripMenuItem.Text = "Авторизация";
+            this.авторизацияToolStripMenuItem.Click += new System.EventHandler(this.авторизацияToolStripMenuItem_Click);
             // 
             // таблицаРекордовToolStripMenuItem
             // 
             this.таблицаРекордовToolStripMenuItem.Name = "таблицаРекордовToolStripMenuItem";
             this.таблицаРекордовToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.таблицаРекордовToolStripMenuItem.Text = "Таблица рекордов";
+            this.таблицаРекордовToolStripMenuItem.Click += new System.EventHandler(this.таблицаРекордовToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
             this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.выходToolStripMenuItem.Text = "Выход";
+            this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
             // настройкиToolStripMenuItem
             // 
@@ -111,9 +117,14 @@
             this.цветФишекToolStripMenuItem.Name = "цветФишекToolStripMenuItem";
             this.цветФишекToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.цветФишекToolStripMenuItem.Text = "Цвет фишек";
+            this.цветФишекToolStripMenuItem.Click += new System.EventHandler(this.цветФишекToolStripMenuItem_Click);
             // 
             // уровеньСложностиToolStripMenuItem
             // 
+            this.уровеньСложностиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.легкий10МинутToolStripMenuItem,
+            this.среднийToolStripMenuItem,
+            this.трудноToolStripMenuItem});
             this.уровеньСложностиToolStripMenuItem.Name = "уровеньСложностиToolStripMenuItem";
             this.уровеньСложностиToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.уровеньСложностиToolStripMenuItem.Text = "Уровень сложности";
@@ -131,6 +142,7 @@
             this.правилаToolStripMenuItem.Name = "правилаToolStripMenuItem";
             this.правилаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.правилаToolStripMenuItem.Text = "Правила";
+            this.правилаToolStripMenuItem.Click += new System.EventHandler(this.правилаToolStripMenuItem_Click);
             // 
             // lblPlayer
             // 
@@ -162,6 +174,27 @@
             this.btnStart.Text = "START GAME";
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            // 
+            // легкий10МинутToolStripMenuItem
+            // 
+            this.легкий10МинутToolStripMenuItem.Name = "легкий10МинутToolStripMenuItem";
+            this.легкий10МинутToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.легкий10МинутToolStripMenuItem.Text = "Легкий (10 минут)";
+            this.легкий10МинутToolStripMenuItem.Click += new System.EventHandler(this.легкий10МинутToolStripMenuItem_Click);
+            // 
+            // среднийToolStripMenuItem
+            // 
+            this.среднийToolStripMenuItem.Name = "среднийToolStripMenuItem";
+            this.среднийToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.среднийToolStripMenuItem.Text = "Средний (5 минут)";
+            this.среднийToolStripMenuItem.Click += new System.EventHandler(this.среднийToolStripMenuItem_Click);
+            // 
+            // трудноToolStripMenuItem
+            // 
+            this.трудноToolStripMenuItem.Name = "трудноToolStripMenuItem";
+            this.трудноToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.трудноToolStripMenuItem.Text = "Сложный (3 минуты)";
+            this.трудноToolStripMenuItem.Click += new System.EventHandler(this.трудноToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -200,6 +233,9 @@
         private System.Windows.Forms.Label lblPlayer;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.ToolStripMenuItem легкий10МинутToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem среднийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem трудноToolStripMenuItem;
     }
 }
 
